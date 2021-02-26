@@ -82,3 +82,10 @@ popd
 echo "+++ all patches applied successfully! +++"
 
 set +eu
+
+rm -rf hardware/qcom/sdm845/Android.bp
+rm -rf external/exfatprogs
+rm -rf hardware/qcom-caf/common/fwk-detect
+rm -rf hardware/qcom/sdm845/Android.mk
+rm -rf hardware/qcom/audio
+rm -rf hardware/qcom/data/ipacfg-mgr
